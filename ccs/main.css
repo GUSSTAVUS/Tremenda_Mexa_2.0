@@ -1,0 +1,21 @@
+@import url('../ccs/inicio.css');
+@import url('./container.css');
+.contenedor{
+width:80%;
+max-width: 1000px;
+margin:0 auto;
+overflow:hidden;
+
+}
+
+@media screen and ( max-width:300px) {
+    .contenedor{
+        
+        margin: 0;
+        width: 80%;
+    }
+    .row_2{
+        width: 100%;
+    }
+
+}
