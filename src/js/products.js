@@ -3,22 +3,26 @@ function addItem(item){
     let itemHTML= `
     <br><div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" >
       <div class="card ">
-        <img src="${item.img}" class="card-img-top" height= "50%" alt="...">
+        <img src="${item.img}" class="card-img-top" height= "400" alt="...">
         <div class="card-body" margin-bottom= "15px">
           <h5 class="card-title">${item.name}</h5>
           <p class="card-text">${item.size}</p>   
           <p class="card-text">${item.costo}</p> 
           <div id="accordionExample">
-          <div  id="headingOne">
-          <p class="mb-0">  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Ver más...
-        </button>
-        </div> </div>
-  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div  id="headingOne">
+              <p class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Ver más...
+              </button>
+              </p>
+            </div>
+          </div>
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
       <div class="card-body">
         ${item.description}
       </div>
-    </div><br>
+    </div>
+    <br>
   </div>
 </div><br>
           </div>
