@@ -1,60 +1,85 @@
-.footer-basic {
-  padding: 40px 0;
-  background-color: #e9d4c7;
-  color: #4b4c4d;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&family=Roboto+Slab:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Nunito',sans-serif;
+    text-decoration: none;
 }
 
-.footer-basic ul {
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  font-size: 18px;
-  line-height: 1.6;
-  margin-bottom: 0;
+
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-size: cover;
+    background:rgb(0, 0, 0) ;
+    display:flex ;
+    justify-content: space-around;
+   
+}
+.container_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px
 }
 
-.footer-basic li {
-  padding: 0 10px;
+.box__footer .logo img{
+    width: 180px;
+}
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #1B9682;
+    font-size: 18px;
 }
 
-.footer-basic ul a {
-  color: inherit;
-  text-decoration: none;
-  opacity: 0.8;
+.box__footer  h2{
+ 
+    margin-bottom: 30px;
+    color:#1B9682;
+    font-weight: 700;
 }
 
-.footer-basic ul a:hover {
-  opacity: 1;
+.box__footer a{
+    margin-top: 10px;
+    color:#1B9682;
+    font-weight: 600;
 }
 
-.footer-basic .social {
-  text-align: center;
-  padding-bottom: 25px;
+.box__footer a:hover{
+    opacity: 0.8;
+}
+.box__footer a .fab{
+    font-size: 20px;
 }
 
-.footer-basic .social > a {
-  font-size: 24px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  border: 1px solid white;
-  margin: 0 8px;
-  color: inherit;
-  opacity: 0.75;
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px, 40px;
 }
-
-.footer-basic .social > a:hover {
-  opacity: 0.9;
+.box__copyright p{
+    margin-top: 20px;
+    color:#1B9682;
 }
-
-.footer-basic .copyright {
-  margin-top: 15px;
-  text-align: center;
-  font-size: 13px;
-  color: #aaa;
-  margin-bottom: 0;
+.box__copyright hr{
+    height: 1px;
+    background-color:#1B9682;
 }
+ .box__footer{
+     font-size: 30px;
 
+ }
